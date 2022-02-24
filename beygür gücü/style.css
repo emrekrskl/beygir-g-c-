@@ -1,0 +1,23 @@
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    place-items: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+input{
+    flex: 0 1 2rem;
+    width: 20rem;
+}
+div{
+    align-content: center;
+}

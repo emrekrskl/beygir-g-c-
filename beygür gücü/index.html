@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+      <label for="txtad">Ne Tür Araç Seversiniz ?</label>
+      <input type="text" id="txtad">
+      <label for="txtsoyad">Otomatik Mi, Manuel Mi?</label>
+      <input type="text" id="txtsoyad">
+      <label for="lıstetakımlar">Araç Seçiniz</label>
+      <select name="takımlar" id="listeulke" onchange="ulke()">
+         <option value="tr" class="">seçiniz</option>
+          <option value="ts" class="">TOYOTO SUPRA</option>
+          <option value="ng" class="">NİSSAN GRT</option>
+          <option value="mq" class="">MAQLAREN</option>
+          <option  value="fm" class="">FORD MUSTANG</option>
+          <option  value="dc" class="">DODGE CHALLENGER</option>
+      </select>
+         <input type="button" value="gönder" id="btngönder" onclick="gonder()">
+    </form>
+    <h3 id="beygir"></h3>
+    <div id="adsoyad"></div>
+    <script src="script.js"></script>
+
+<body>
+<html>
+
+    
